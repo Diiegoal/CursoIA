@@ -1,21 +1,3 @@
-                                 Today 1:35 PM
-
-
-
-                          Te voy a pasar un prompt pero quiero que olvides lo
-                          que tengas en memoria, no quiero que contamines
-                          el resultado del prompt que te voy a pasar, si me
-                          entiendes?, quiero comenzar desde cero.
-
-   Memory updated
-Sí, te entiendo. He eliminado la información guardada sobre ti.
-
-A partir del próximo prompt comenzaré desde cero y usaré únicamente la
-información que incluyas en esta conversación.
-
-
-
-
                           Quiero que hagamos un proyecto, ingresa a mi
                           repo https://github.com/Diiegoal/CursoIA,
                           empezando por
