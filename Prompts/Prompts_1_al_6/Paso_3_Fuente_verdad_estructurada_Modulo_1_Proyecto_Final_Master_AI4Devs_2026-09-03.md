@@ -481,7 +481,7 @@ Workspace objetivo:
 Tarea actual:
 Construir una fuente de verdad estructurada y trazable del Módulo 1 del curso.
 
-Lee como fuente primaria estos cinco archivos:
+Lee como fuente primaria estos cinco archivos completos:
 
 1. Módulo_1_Los_3_pilares_del_uso_efectivo_de_copilotos_IA/1. El modelo mental de los 3 pilares.md
 2. Módulo_1_Los_3_pilares_del_uso_efectivo_de_copilotos_IA/2. Pilar 1 — La Herramienta.md
@@ -490,22 +490,46 @@ Lee como fuente primaria estos cinco archivos:
 5. Módulo_1_Los_3_pilares_del_uso_efectivo_de_copilotos_IA/5. Recursos adicionales.md
 
 Consulta también:
-Prompts/Plan_M1_Proyecto_Full_Stack_AI4Devs.md
+Prompts/Plan_M1_preparacion_Proyecto_Final_Master_AI4Devs_2026-09-02.md
 
 No modifiques ningún archivo dentro de ~/Projects/CursoIA.
 
-Antes de escribir, crea un plan para producir:
+Antes de escribir, crea un plan para producir su contenido en ingles:
 ~/Projects/Proyecto_Final_Master_AI4Devs/docs/source-of-truth/module-1/MODULE_1_SOURCE_OF_TRUTH.md
 
 Clasifica:
-- principios
-- prácticas
-- herramientas
-- configuraciones
-- anti-patrones
-- comprobaciones
-- recursos externos
-- afirmaciones sujetas a verificación
+1. Metadata
+2. Purpose
+3. Provenance model
+4. Principles
+5. Practices
+6. Tools
+7. Configurations
+8. Anti-patterns
+9. Checks
+10. External resources
+11. Time-sensitive claims
+12. External facts verified
+13. Project recommendations
+14. Project decisions
+15. Pending verification
+16. Traceability matrix
+17. Change history
+
+
+IDs estables:
+
+M1-PR-*  Principles
+M1-PA-*  Practices
+M1-TO-*  Tools
+M1-CF-*  Configuration facts
+M1-AP-*  Anti-patterns
+M1-CK-*  Checks
+M1-EX-*  External resources/facts
+M1-RC-*  Recommendations
+M1-DC-*  Project decisions
+M1-PV-*  Pending verification
+
 
 Cada entrada debe distinguir:
 COURSE_FACT
@@ -513,6 +537,17 @@ EXTERNAL_FACT
 PROJECT_RECOMMENDATION
 PROJECT_DECISION
 PENDING_VERIFICATION
+
+Estructura obligatorio a todos:
+
+ID		Classification    Statement	Epistemic status	Source
+M1-PR-001	COURSE_FACT
+M1-TO-001	COURSE_FACT
+M1-PA-001	COURSE_FACT
+M1-EX-001	EXTERNAL_FACT
+M1-RC-001	PROJECT_RECOMMENDATION
+M1-PV-001	PENDING_VERIFICATION
+
 
 No conviertas opiniones del curso en reglas obligatorias.
 No inventes información.
@@ -923,62 +958,62 @@ Todas las transformaciones deben ocurrir en el workspace separado.
 
 ## I.1. Fuente primaria
 
-- [ ] `CursoIA` sigue siendo solo lectura.
-- [ ] `CursoIA` está limpio.
-- [ ] Los temporales de auditoría fueron eliminados.
-- [ ] Los cinco documentos siguen intactos.
+- [X] `CursoIA` sigue siendo solo lectura.
+- [X] `CursoIA` está limpio.
+- [X] Los temporales de auditoría fueron eliminados.
+- [X] Los cinco documentos siguen intactos.
 
 ## I.2. Workspace
 
-- [ ] Existe `Proyecto_Final_Master_AI4Devs`.
-- [ ] Está fuera de `CursoIA`.
-- [ ] Existe `docs/source-of-truth/module-1`.
-- [ ] Existe `MODULE_1_SOURCE_OF_TRUTH.md`.
+- [X] Existe `Proyecto_Final_Master_AI4Devs`.
+- [X] Está fuera de `CursoIA`.
+- [X] Existe `docs/source-of-truth/module-1`.
+- [X] Existe `MODULE_1_SOURCE_OF_TRUTH.md`.
 
 ## I.3. Cobertura
 
-- [ ] Principios.
-- [ ] Prácticas.
-- [ ] Herramientas.
-- [ ] Configuraciones.
-- [ ] Anti-patrones.
-- [ ] Comprobaciones.
-- [ ] Recursos externos.
-- [ ] Afirmaciones temporales.
-- [ ] Pendientes.
+- [X] Principios.
+- [X] Prácticas.
+- [X] Herramientas.
+- [X] Configuraciones.
+- [X] Anti-patrones.
+- [X] Comprobaciones.
+- [X] Recursos externos.
+- [X] Afirmaciones temporales.
+- [X] Pendientes.
 
 ## I.4. Procedencia
 
-- [ ] `COURSE_FACT`.
-- [ ] `EXTERNAL_FACT`.
-- [ ] `PROJECT_RECOMMENDATION`.
-- [ ] `PROJECT_DECISION`.
-- [ ] `PENDING_VERIFICATION`.
+- [X] `COURSE_FACT`.
+- [X] `EXTERNAL_FACT`.
+- [X] `PROJECT_RECOMMENDATION`.
+- [X] `PROJECT_DECISION`.
+- [X] `PENDING_VERIFICATION`.
 
 ## I.5. Trazabilidad
 
-- [ ] IDs estables.
-- [ ] Sin IDs duplicados.
-- [ ] Los cinco documentos tienen referencias.
-- [ ] Existe matriz de trazabilidad.
-- [ ] Recursos externos distinguidos de hechos.
+- [X] IDs estables.
+- [X] Sin IDs duplicados.
+- [X] Los cinco documentos tienen referencias.
+- [X] Existe matriz de trazabilidad.
+- [X] Recursos externos distinguidos de hechos.
 
 ## I.6. Seguridad
 
-- [ ] No se registraron tokens.
-- [ ] No se registraron claves.
-- [ ] No se registraron contraseñas.
-- [ ] Claude Code no modificó `CursoIA`.
+- [X] No se registraron tokens.
+- [X] No se registraron claves.
+- [X] No se registraron contraseñas.
+- [X] Claude Code no modificó `CursoIA`.
 
 ## I.7. Alcance
 
-- [ ] No hay backend.
-- [ ] No hay frontend.
-- [ ] No hay base de datos del producto.
-- [ ] No hay `AGENTS.md`.
-- [ ] No hay `CLAUDE.md`.
-- [ ] No se fijó aún arquitectura funcional.
-- [ ] No se adelantaron módulos posteriores.
+- [X] No hay backend.
+- [X] No hay frontend.
+- [X] No hay base de datos del producto.
+- [X] No hay `AGENTS.md`.
+- [X] No hay `CLAUDE.md`.
+- [X] No se fijó aún arquitectura funcional.
+- [X] No se adelantaron módulos posteriores.
 
 ---
 
@@ -986,7 +1021,7 @@ Todas las transformaciones deben ocurrir en el workspace separado.
 
 ## Estado actual
 
-# `NO PASA`
+# `PASA`
 
 ## Motivo
 
@@ -1047,7 +1082,7 @@ Se mantendrá si:
 ## Repositorio del curso
 
 - `https://github.com/Diiegoal/CursoIA`
-- `https://github.com/Diiegoal/CursoIA/blob/main/Prompts/Plan_M1_Proyecto_Full_Stack_AI4Devs.md`
+- `https://github.com/Diiegoal/CursoIA/blob/main/Prompts/Plan_M1_preparacion_Proyecto_Final_Master_AI4Devs_2026-09-02.md`
 
 ## GitHub
 
@@ -1186,8 +1221,8 @@ Trazabilidad definida                        ✓
 Procedimiento de ejecución preparado         ✓
 Pruebas definidas                            ✓
 Checklist definido                           ✓
-Artefacto local construido                   PENDIENTE
-Gate                                         NO PASA
+Artefacto local construido                   VERIFICADO
+Gate                                         PASA
 ```
 
 # Siguiente acción
